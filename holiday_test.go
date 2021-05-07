@@ -130,18 +130,18 @@ func TestIsHoliday(t *testing.T) {
 		value string
 	}{
 		{
-			value: "2019/10/01",
+			value: "2019-10-01",
 		},
 		{
-			value: "2018/10/01",
+			value: "2018-10-01",
 		},
 		{
-			value: "2018/01/01",
+			value: "2018-01-01",
 		}, {
-			value: "2018/11/28",
+			value: "2018-11-28",
 		},
 		{
-			value: " 2018/11/25",
+			value: " 2018-11-25",
 		},
 	}
 	for _, test := range tests {
